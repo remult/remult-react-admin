@@ -1,6 +1,6 @@
 {
   "name": "remult-react-admin",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "an extension package for react admin that leverages remult metadata",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -14,7 +14,7 @@
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
-    "publish":"npm run build & npm version patch & npm publish"
+    "publish": "npm run build & npm version patch & npm publish"
   },
   "devDependencies": {
     "@types/react": "^17.0.35",
